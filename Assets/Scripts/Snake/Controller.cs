@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
-public class PlayerMove : MonoBehaviour
+public class Controller : MonoBehaviour
 {
     [Header("Movement")]
     public float speed = 20f;
