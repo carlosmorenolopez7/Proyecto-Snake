@@ -22,6 +22,8 @@ public class Controller : MonoBehaviour
             rb = gameObject.AddComponent<Rigidbody>();
         }
         rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void OnMove(InputValue valor)

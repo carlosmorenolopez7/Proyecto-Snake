@@ -1457,7 +1457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &213103940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,6 +1491,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &213103942
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3723,7 +3727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &656911289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3757,6 +3761,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &656911291
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3995,7 +4003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &663299118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4029,6 +4037,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &663299120
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7047,7 +7059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1030304016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7081,6 +7093,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &1030304018
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7742,7 +7758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1059733199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,6 +7792,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &1059733201
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8322,7 +8342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1223653564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8356,6 +8376,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &1223653566
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8944,6 +8968,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 2.5
+  searchRadius: 20
+  waypointWaitTime: 3
+  minDistanceFromWall: 5
 --- !u!195 &1380164717
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11172,7 +11200,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1760243738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11206,6 +11234,10 @@ MonoBehaviour:
   visionDistance: 10
   player: {fileID: 371845917}
   distanceThreshold: 2
+  searchSpeedMultiplier: 1.5
+  searchRadius: 10
+  waypointWaitTime: 2
+  minDistanceFromWall: 2
 --- !u!195 &1760243740
 NavMeshAgent:
   m_ObjectHideFlags: 0
